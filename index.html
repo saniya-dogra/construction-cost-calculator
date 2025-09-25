@@ -1,0 +1,38 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction Cost Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Construction Cost Calculator</h1>
+    
+    <label>Plot Area (sq. ft.)</label>
+    <input type="number" id="plotArea" placeholder="Enter area">
+
+    <label>Existing Built-up Area (optional)</label>
+    <input type="number" id="builtUpArea" placeholder="Enter built-up area">
+
+    <label>Construction Type</label>
+    <select id="constructionType">
+      <option value="bungalow">Bungalow</option>
+      <option value="interior">Interior Work</option>
+    </select>
+
+    <label>Quality</label>
+    <select id="quality">
+      <option value="basic">Basic</option>
+      <option value="medium">Medium</option>
+      <option value="premium">Premium</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
