@@ -48,4 +48,3 @@ construction-cost-calculator/
 1. Open `index.html` in your browser.  
 2. Enter the inputs → Click **Calculate**.  
 3. View results with cost, time, and material breakdown.  
-![alt text](image.png)
