@@ -41,6 +41,7 @@ construction-cost-calculator/
 │── style.css # Styling
 │── script.js # Calculation logic
 │── README.md # This file
+│── image.png # screenshot 
 
 
 # 🚀 How to Run
